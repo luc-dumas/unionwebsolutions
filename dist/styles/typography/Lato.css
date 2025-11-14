@@ -1,0 +1,89 @@
+h1 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(52, 73, 94);
+  font-size: 61px;
+  line-height: 67px;
+}
+
+h2 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(52, 73, 94);
+  font-size: 53px;
+  line-height: 58px;
+}
+
+h3 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(52, 73, 94);
+  font-size: 40px;
+  line-height: 44px;
+}
+
+h4 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(52, 73, 94);
+  font-size: 29px;
+  line-height: 32px;
+}
+
+h5 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(52, 73, 94);
+  font-size: 28px;
+  line-height: 31px;
+}
+
+h6 {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(52, 73, 94);
+  font-size: 24px;
+  line-height: 26px;
+}
+
+p {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(52, 73, 94);
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.subtitle {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(52, 73, 94);
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.lead {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: rgb(52, 73, 94);
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.quote {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(52, 73, 94);
+  font-size: 20px;
+  line-height: 31px;
+}

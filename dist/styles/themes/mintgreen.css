@@ -1,0 +1,14 @@
+/* Mint Green Theme - based on Tailwind color scale */
+:root {
+  --50: #effef2;
+  --100: #dafee2;
+  --200: #b7fbc8;
+  --300: #7df59c;
+  --400: #41e76d;
+  --500: #18cf48;
+  --600: #0eab38;
+  --700: #0f862f;
+  --800: #116a2a;
+  --900: #105725;
+  --950: #033011;
+}

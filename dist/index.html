@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Union Web Solutions</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/svgs/favicon.svg">
+    <link rel="stylesheet" href="animations/magic-master/dist/magic.css">
+    <link rel="stylesheet" href="styles/themes/blue.css">
+</head>
+
+<body>
+    <!-- Top Navigation Header -->
+    <header class="top-header">
+        <div class="header-brand">
+            <div class="brand-container">
+                <div class="brand-logo">
+                    <h1 class="brand-text-short">UWS</h1>
+                </div>
+                <h1 class="brand-text-full">Union Web Solutions</h1>
+            </div>
+        </div>
+
+        <nav class="header-nav">
+            <!-- Hamburger Menu Button -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="navbar" id="navbar">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <!-- <li><a href="pages/testimonials.html">Testimonials</a></li> -->
+                    <!-- <li><a href="pages/experience.html">Experience</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="homepage">
+        <!-- Background SVG moved outside of main-right to avoid flex constraints -->
+        <svg class="background-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100%" height="100%" viewBox="0 0 5000 3000" version="1.1">
+            <g id="surface1">
+                <path
+                    d="M 0 2982.910156 L 0 2657.300781 C 813.210938 2657.300781 805.472656 2073.441406 1209.53125 1858.289063 C 1387.089844 1763.738281 1535.53125 1732.460938 1667.410156 1724.199219 C 1315.398438 2115.558594 1539.21875 2777.058594 0 2982.910156 M 2521.898438 1401.101563 C 2640.03125 1170.761719 2723.988281 871.46875 2952.820313 730.5 C 3166.019531 599.171875 3374.820313 629.761719 3579.070313 612.628906 C 3469.25 849.460938 3382.359375 1126.890625 3188.578125 1255.53125 C 3023.898438 1364.851563 2779.828125 1376.058594 2521.898438 1401.101563 M 4247 137.171875 C 4308.429688 82.808594 4385.96875 34.371094 4493.488281 0 L 5000 0 L 5000 6.238281 C 4810.371094 135.589844 4521.371094 107.921875 4247 137.171875 "
+                    class="svg-elem-1"></path>
+                <path
+                    d="M 1999.980469 1728.558594 C 1960.761719 1728.558594 1920.921875 1726.839844 1879.960938 1725.109375 C 1838.988281 1723.390625 1796.890625 1721.671875 1753.101563 1721.671875 C 1725.261719 1721.671875 1696.75 1722.359375 1667.410156 1724.199219 C 1688.078125 1701.230469 1710.71875 1679.191406 1735.828125 1658.21875 C 1961.988281 1469.359375 2249.671875 1427.53125 2521.898438 1401.101563 C 2459.550781 1522.671875 2387.679688 1625.039063 2279.96875 1674.789063 C 2185.089844 1718.609375 2094.269531 1728.558594 1999.980469 1728.558594 M 3579.070313 612.628906 C 3638.960938 483.480469 3705.679688 366.378906 3800.261719 292.128906 C 3928.511719 191.441406 4085.199219 154.410156 4247 137.171875 C 4112.558594 256.121094 4055.308594 403.390625 3930.238281 493.480469 C 3814.761719 576.648438 3697.679688 602.691406 3579.070313 612.628906 "
+                    class="svg-elem-2"></path>
+                <path
+                    d="M 1199.109375 3000 L 0 3000 L 0 2982.910156 C 1539.21875 2777.058594 1315.398438 2115.558594 1667.410156 1724.199219 C 1696.75 1722.359375 1725.261719 1721.671875 1753.101563 1721.671875 C 1796.890625 1721.671875 1838.988281 1723.390625 1879.960938 1725.109375 C 1920.921875 1726.839844 1960.761719 1728.558594 1999.980469 1728.558594 C 2094.269531 1728.558594 2185.089844 1718.609375 2279.96875 1674.789063 C 2387.679688 1625.039063 2459.550781 1522.671875 2521.898438 1401.101563 C 2779.828125 1376.058594 3023.898438 1364.851563 3188.578125 1255.53125 C 3382.359375 1126.890625 3469.25 849.460938 3579.070313 612.628906 C 3697.679688 602.691406 3814.761719 576.648438 3930.238281 493.480469 C 4055.308594 403.390625 4112.558594 256.121094 4247 137.171875 C 4521.371094 107.921875 4810.371094 135.589844 5000 6.238281 L 5000 202 C 4747.71875 309.300781 4682.109375 486.390625 4637 678.960938 C 4454.941406 682.148438 4260.25 714.96875 4143.78125 800.71875 C 3937.238281 952.789063 3830.421875 1155.988281 3723.679688 1321.839844 C 3719.621094 1321.808594 3715.558594 1321.800781 3711.488281 1321.800781 C 3569.53125 1321.800781 3424.960938 1340.460938 3293.070313 1416.671875 C 3203.699219 1468.308594 3123.03125 1546.921875 3049.199219 1633.261719 C 2858.589844 1633.421875 2650.558594 1640.261719 2452.011719 1767.808594 C 2345.261719 1836.390625 2227.738281 1976.03125 2128.789063 2159.648438 C 2012.441406 2170.539063 1895.480469 2196.21875 1794.449219 2260.980469 C 1533.421875 2428.308594 1404.199219 2879.800781 1199.109375 3000 "
+                    class="svg-elem-3"></path>
+                <path
+                    d="M 1902.140625 3000 L 1199.109375 3000 C 1404.199219 2879.800781 1533.421875 2428.308594 1794.449219 2260.980469 C 1895.480469 2196.21875 2012.441406 2170.539063 2128.789063 2159.648438 C 2005.328125 2388.789063 1910.78125 2686.460938 1902.140625 3000 M 3107.839844 1633.300781 C 3099.441406 1633.300781 3091.03125 1633.289063 3082.550781 1633.28125 C 3074.109375 1633.269531 3065.601563 1633.261719 3057.089844 1633.261719 C 3054.460938 1633.261719 3051.828125 1633.261719 3049.199219 1633.261719 C 3123.03125 1546.921875 3203.699219 1468.308594 3293.070313 1416.671875 C 3424.960938 1340.460938 3569.53125 1321.800781 3711.488281 1321.800781 C 3715.558594 1321.800781 3719.621094 1321.808594 3723.679688 1321.839844 C 3661.460938 1418.53125 3599.25 1502.539063 3517.351563 1556.269531 C 3405.421875 1629.71875 3263.671875 1633.300781 3107.839844 1633.300781 M 5000 715.421875 C 4922.640625 694.019531 4799.578125 678.699219 4666.960938 678.699219 C 4657.03125 678.699219 4647.019531 678.789063 4637 678.960938 C 4682.109375 486.390625 4747.71875 309.300781 5000 202 L 5000 715.421875 "
+                    class="svg-elem-4"></path>
+                <path
+                    d="M 2128.789063 2159.648438 C 2227.738281 1976.03125 2345.261719 1836.390625 2452.011719 1767.808594 C 2650.558594 1640.261719 2858.589844 1633.421875 3049.199219 1633.261719 C 2894.410156 1814.28125 2769.75 2029.230469 2658.449219 2100.421875 C 2551.011719 2169.128906 2340.941406 2139.800781 2128.789063 2159.648438 M 4099.308594 1338.941406 C 4040.339844 1338.941406 3977.410156 1334.660156 3912.210938 1330.371094 C 3850.898438 1326.339844 3787.621094 1322.308594 3723.679688 1321.839844 C 3830.421875  1155.988281 3937.238281 952.789063 4143.78125 800.71875 C 4260.25 714.96875 4454.941406 682.148438 4637 678.960938 C 4591.949219 871.28125 4567.390625 1079.019531 4397.921875 1247.878906 C 4324.628906 1320.921875 4220.28125 1338.941406 4099.308594 1338.941406 "
+                    class="svg-elem-5"></path>
+                <path
+                    d="M 1948.378906 3000 L 1902.140625 3000 C 1910.78125 2686.460938 2005.328125 2388.789063 2128.789063 2159.648438 C 2340.941406 2139.800781 2551.011719 2169.128906 2658.449219 2100.421875 C 2769.75 2029.230469 2894.410156 1814.28125 3049.199219 1633.261719 C 3051.828125 1633.261719 3054.460938 1633.261719 3057.089844 1633.261719 C 3065.601563 1633.261719 3074.109375 1633.269531 3082.550781 1633.28125 C 3091.03125 1633.289063 3099.441406 1633.300781 3107.839844 1633.300781 C 3263.671875 1633.300781 3405.421875 1629.71875 3517.351563 1556.269531 C 3599.25 1502.539063 3661.460938 1418.53125 3723.679688 1321.839844 C 3787.621094 1322.308594 3850.898438 1326.339844 3912.210938 1330.371094 C 3977.410156 1334.660156 4040.339844 1338.941406 4099.308594 1338.941406 C 4220.28125 1338.941406 4324.628906 1320.921875 4397.921875 1247.878906 C 4567.390625 1079.019531 4591.949219 871.28125 4637 678.960938 C 4647.019531 678.789063 4657.03125 678.699219 4666.960938 678.699219 C 4799.578125 678.699219 4922.640625 694.019531 5000 715.421875 L 5000 979.648438 C 4886.628906 1075.539063 4802.800781 1221.480469 4713 1336.53125 C 4653.449219 1336.980469 4592.929688 1349.03125 4531.730469 1382.960938 C 4472.070313 1416.039063 4426.171875 1465.339844 4387.019531 1520.691406 C 4356.339844 1522.441406 4323.71875 1522.949219 4289.640625 1522.949219 C 4265.898438 1522.949219 4241.429688 1522.699219 4216.441406 1522.449219 C 4191.429688 1522.199219 4165.898438 1521.960938 4139.96875 1521.960938 C 3965.949219 1521.960938 3774.910156 1533.109375 3616.75 1630.191406 C 3380.871094 1774.96875 3262.488281 2076.199219 3124.859375 2170.5 C 3066.21875 2210.679688 2989.390625 2214.769531 2900.78125 2214.769531 C 2889.449219 2214.769531 2877.921875 2214.699219 2866.210938 2214.640625 C 2854.488281 2214.570313 2842.589844 2214.5 2830.53125 2214.5 C 2692.578125 2214.5 2532.921875 2223.289063 2371.730469 2341.261719 C 2214.53125 2456.320313 1966.128906 2737.878906 1948.378906 3000 "
+                    class="svg-elem-6"></path>
+                <path
+                    d="M 2234.761719 3000 L 1948.378906 3000 C 1966.128906 2737.878906 2214.53125 2456.320313 2371.730469 2341.261719 C 2532.921875 2223.289063 2692.578125 2214.5 2830.53125 2214.5 C 2842.589844 2214.5 2854.488281 2214.570313 2866.210938 2214.640625 C 2877.921875 2214.699219 2889.449219 2214.769531 2900.78125 2214.769531 C 2989.390625 2214.769531 3066.21875 2210.679688 3124.859375 2170.5 C 3262.488281 2076.199219 3380.871094 1774.96875 3616.75 1630.191406 C 3774.910156 1533.109375 3965.949219 1521.960938 4139.96875 1521.960938 C 4165.898438 1521.960938 4191.429688 1522.199219 4216.441406 1522.449219 C 4241.429688 1522.699219 4265.898438 1522.949219 4289.640625 1522.949219 C 4323.71875 1522.949219 4356.339844 1522.441406 4387.019531 1520.691406 C 4303.25 1639.140625 4250.378906 1785.308594 4159.621094 1859.570313 C 3997.648438 1992.078125 3590.980469 1923.640625 3378.621094 2098.039063 C 2939.308594 2458.820313 3155.738281 2846.589844 2234.761719 3000 M 5000 1383.101563 C 4970.488281 1377.929688 4940.558594 1371.210938 4910.25 1364.488281 C 4847.148438 1350.511719 4782.441406 1336.519531 4716.511719 1336.519531 C 4715.339844 1336.519531 4714.171875 1336.519531 4713 1336.53125 C 4802.800781 1221.480469 4886.628906 1075.539063 5000 979.648438 L 5000 1383.101563 "
+                    class="svg-elem-7"></path>
+                <path
+                    d="M 4387.019531 1520.691406 C 4426.171875 1465.339844 4472.070313 1416.039063 4531.730469 1382.960938 C 4592.929688 1349.03125 4653.449219 1336.980469 4713 1336.53125 C 4664.398438 1398.789063 4614.039063 1452.019531 4556.308594 1483.351563 C 4512.738281 1507 4454.601563 1516.851563 4387.019531 1520.691406 "
+                    class="svg-elem-8"></path>
+                <path
+                    d="M 3028.578125 3000 L 2234.761719 3000 C 3155.738281 2846.589844 2939.308594 2458.820313 3378.621094 2098.039063 C 3590.980469 1923.640625 3997.648438 1992.078125 4159.621094 1859.570313 C 4250.378906 1785.308594 4303.25 1639.140625 4387.019531 1520.691406 C 4454.601563 1516.851563 4512.738281 1507 4556.308594 1483.351563 C 4614.039063 1452.019531 4664.398438 1398.789063 4713 1336.53125 C 4714.171875 1336.519531 4715.339844 1336.519531 4716.511719 1336.519531 C 4782.441406 1336.519531 4847.148438 1350.511719 4910.25 1364.488281 C 4940.558594 1371.210938 4970.488281 1377.929688 5000 1383.101563 L 5000 1523.289063 C 4957.449219 1638.929688 4865.140625 1804.019531 4740.078125 1884.421875 C 4633.039063 1953.230469 4352.039063 1882.5 4180.011719 1972.339844 C 4009.011719 2061.648438 3999.050781 2225.300781 3877.988281 2297.300781 C 3768.460938 2362.441406 3509.769531 2335.058594 3325.628906 2473.328125 C 3170.820313 2589.570313 3049.21875 2834.429688 3028.578125 3000 "
+                    class="svg-elem-9"></path>
+                <path
+                    d="M 5000 3000 L 3028.578125 3000 C 3049.21875 2834.429688 3170.820313 2589.570313 3325.628906 2473.328125 C 3509.769531 2335.058594 3768.460938 2362.441406 3877.988281 2297.300781 C 3999.050781 2225.300781 4009.011719 2061.648438 4180.011719 1972.339844 C 4352.039063 1882.5 4633.039063 1953.230469 4740.078125 1884.421875 C 4865.140625 1804.019531 4957.449219 1638.929688 5000 1523.289063 L 5000 3000 "
+                    class="svg-elem-10"></path>
+            </g>
+        </svg>
+
+        <div class="main-left">
+            <div class="hero-flex-wrapper">
+                <div class="hero-flex">
+                    <div class="hero-flex__text">
+                        <h2 class="homepage-header">
+                            Looking To Take Your Business Further?
+                        </h2>
+                        <p class="hompage-msg">
+                            We build the websites, apps, and digital solutions that solve your real business problems
+                            and help you grow.
+                        </p>
+
+                        <button class="services-btn" id="services-hero-btn">Learn More</button>
+                        <button class="learn-more-btn" id="contact-hero-btn">Work
+                            with us
+                        </button>
+                    </div>
+
+                    <div class="hero-flex__image-square">
+                        <!-- <div class="image-square image-square-large"> -->
+                        <img class="overlay-img" src="assets/svgs/Site-constructor.svg" alt="Under Construction">
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- Chevron at the bottom of the hero/main split section -->
+            <!-- Scroll Down Indicator: Three Chevrons -->
+            <!-- <div class="scroll-down-indicator">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="M12 16l12 12 12-12" stroke="#888" stroke-width="3.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 24l12 12 12-12" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 32l12 12 12-12" stroke="#ddd" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </g>
+                </svg>
+            </div> -->
+        </div>
+        <div class="main-right">
+            <!-- SVG moved to homepage level to escape flex constraints -->
+        </div> <!-- Displays blue background -->
+    </main>
+    <div id="below-fold" class="below-fold-section below-fold-white">
+        <div class="services-section">
+            <div class="services-header">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <h2 id="grow-title"
+                        style="display:inline-block; margin-bottom:0px; margin-top:0; position:relative; z-index:1;">
+                        Helping You Grow
+                        Online</h2>
+                    <img src="assets/svgs/llline.svg" alt="" class="responsive-underline-svg">
+                </div>
+                <p style="margin-top: 15px;">We build the technology your business needs - websites, apps, systems,
+                    whatever solves your problems and helps you grow.</p>
+            </div>
+            <div class="services-grid">
+                <div class="services-column">
+                    <div class="service-card">
+                        <div class="service-card-content">
+                            <h3>Complete Digital Foundation</h3>
+                            <p>We build the foundation for how your business shows up online - everything working
+                                together, nothing
+                                fighting against each other. Your design, messaging, and tools all moving in the same
+                                direction.</p>
+
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card-content">
+                            <h3>Websites & Apps Built Right</h3>
+                            <p>We build custom websites and web applications that solve real business problems. Complex
+                                backends, seamless
+                                integrations, whatever technical challenges you're facing - we handle the complicated
+                                stuff so your business
+                                can run smoothly.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card-content">
+                            <h3>Design That Works</h3>
+                            <p>Clean, professional design that lets your business shine through. We want your customers
+                                to understand what
+                                you do and feel confident working with you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-column">
+                    <div class="service-card">
+                        <div class="service-card-content">
+                            <br>
+                            <h3>Content That Actually Helps</h3>
+                            <p>Your website should answer questions, not create them. We write copy that explains what
+                                you do clearly
+                                and helps visitors understand why they should care.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card-content">
+                            <h3>AI That Makes Sense</h3>
+                            <p>AI doesn't have to be complicated or expensive. We can help you figure out if chatbots,
+                                automated
+                                workflows, or other tools would actually help your day-to-day operations without adding
+                                unnecessary
+                                complexity.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card-content">
+                            <h3>Help You Get Found</h3>
+                            <p>Good SEO and smart advertising aren't magic - they're about understanding your customers
+                                and showing up when
+                                they're looking. We'll help you figure out what actually works for your business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end .services-section -->
+    </div> <!-- end #below-fold -->
+    <!-- About Us Standalone View (completely new view below wave and contact form) -->
+    <section id="about-us" class="about-us-section"
+        style="background:none; position:relative; padding:0 0 120px 0; border-radius:40px; margin:0px 0 140px 0; overflow:visible;">
+        <div id="meet-us-background"
+            style="position:absolute;  top: 12.5%; width:100%; height:100%; transform: scale(1.6, 1.19); max-width:100%; opacity:1; pointer-events:none; z-index:0;">
+            <img src="assets/svgs/meetusbackground4.svg" alt="Meet Us Background"
+                style="width:100%; height:100%; object-fit:contain; display:block;">
+        </div>
+        <div
+            style="position:relative; z-index:1; width:70%; margin:0 auto; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+            <h2 class="about-us-title"
+                style="text-align:center; font-size:2rem; font-weight:800; font-family:'Rubik',sans-serif; margin-bottom:0px; color:#11587a; letter-spacing:-1px;">
+                Meet the Team</h2>
+            <p
+                style="text-align:center; color:#1899d3; font-size:1.15rem; margin-top: 4px;margin-bottom:40px; font-family:'Rubik',sans-serif; font-weight:500;">
+                Some of the people behind Union Web Solutions</p>
+            <div class="about-us-cards"
+                style="display:flex; justify-content:center; gap:0px; flex-wrap:wrap; width: 88%; margin: 0 auto;">
+                <div style="text-align:center; flex:1; min-width:260px; margin:0 32px;">
+                    <div class="about-us-avatar"
+                        style="width:170px; height:170px; border-radius:50%; border:6px solid #1899d3; background:#e9ebee; margin:0 auto 18px auto; box-shadow:0 6px 24px rgba(17,88,122,0.10); overflow:hidden;">
+                        <img src="assets/images/luc.jpg" alt="Person One"
+                            style="width:100%; height:100%; object-fit:cover; border-radius:50%;  transform: translate(10px, 10px) scale(1.5, 1.5);">
+                    </div>
+                    <h3
+                        style="color:#11587a; font-size:1.45rem; font-weight:700; margin-bottom:10px; font-family:'Rubik',sans-serif; letter-spacing:-0.5px;">
+                        Luc Dumas</h3>
+                    <p
+                        style="color:#2d3748; font-size:1rem; font-family:'Rubik',sans-serif; margin-bottom:0; line-height:1.6; max-width:450px; margin:0 auto;">
+                        Luc is an experienced software engineer who builds custom web applications and business systems.
+                        He's worked with
+                        education companies managing system upgrades during acquisitions, developing new features, and
+                        creating user-friendly
+                        interfaces. He handles both the technical infrastructure and customer-facing parts of
+                        applications, focusing on tools
+                        that make businesses run more efficiently - whether that's scheduling systems, customer
+                        databases, or mobile-friendly
+                        websites.</p>
+                </div>
+                <div style="text-align:center; flex:1; min-width:260px; margin:0 32px;">
+                    <div class="about-us-avatar"
+                        style="width:170px; height:170px; border-radius:50%; border:6px solid #1899d3; background:#e9ebee; margin:0 auto 18px auto; box-shadow:0 6px 24px rgba(17,88,122,0.10); overflow:hidden;">
+                        <img src="assets/images/john.jpeg" alt="Person Two"
+                            style="width:100%; height:100%; object-fit:cover; border-radius:50%; transform: scale(1.3, 1.3);">
+                    </div>
+                    <h3
+                        style="color:#11587a; font-size:1.45rem; font-weight:700; margin-bottom:10px;font-family:'Rubik',sans-serif; letter-spacing:-0.5px;">
+                        John Conlon</h3>
+                    <p
+                        style="color:#2d3748; font-size:1rem; font-family:'Rubik',sans-serif; margin-bottom:0; line-height:1.6; max-width:450px; margin:0 auto;">
+                        John has experience building and maintaining complex web applications for
+                        financial services
+                        companies. He specializes in the robust systems that handle critical financial operations - from
+                        payment processing to
+                        account management platforms.
+                        He's skilled at both technical backend infrastructure and user-facing applications, focusing on
+                        building reliable,
+                        secure systems that financial institutions depend on daily.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .responsive-underline-svg {
+            width: 100%;
+            max-width: 475px;
+            display: block;
+            position: relative;
+            z-index: 0;
+            height: 20px;
+            margin-top: -11px;
+            transform: scale(12, 6);
+        }
+
+        @media (max-width: 900px) {
+            .responsive-underline-svg {
+                transform: scale(10, 6);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .responsive-underline-svg {
+                transform: scale(10, 6);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .responsive-underline-svg {
+                transform: scale(8, 6);
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 830px) {
+            .main-left {
+                margin-left: 30px;
+            }
+        }
+
+        @media (max-width: 1240px) {
+            .about-us-section>div:first-child {
+                display: none !important;
+                margin-bottom: 100px !important;
+            }
+
+            /* Add margin-bottom to the first profile's description paragraph */
+            .about-us-cards>div:first-child p {
+                margin-bottom: 40px !important;
+            }
+        }
+
+        @media (min-width: 1500px) {
+            .about-us-section>#meet-us-background {
+                transform: scale(2, 1.2) !important;
+                top: 16% !important;
+            }
+        }
+    </style>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form-section">
+        <div class="contact-form-container">
+            <div class="contact-form-header">
+                <h2>Ready to Get Started?</h2>
+                <p>Tell us about your project</p>
+            </div>
+
+            <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c120d14d-abb9-4e87-81a5-4b6338e303cd">
+                <input type="hidden" name="subject" value="New Contact Form Submission - Union Web Solutions">
+                <input type="hidden" name="from_name" value="Union Web Solutions Contact Form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <!-- <div class="form-group full-width">
+                    <label for="budget">Budget Range</label>
+                    <select id="budget" name="budget">
+                        <option value="">Select budget range</option>
+                        <option value="under-5k">Under $5,000</option>
+                        <option value="5k-10k">$5,000 - $10,000</option>
+                        <option value="10k-25k">$10,000 - $25,000</option>
+                        <option value="25k-50k">$25,000 - $50,000</option>
+                        <option value="50k-plus">$50,000+</option>
+                    </select>
+                </div> -->
+
+                <div class="form-group full-width">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" name="message" rows="5"
+                        placeholder="Tell us about your project, goals, timeline, and any specific requirements..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Bottom Wave SVG -->
+    <div class="bottom-wave-container">
+        <img src="assets/svgs/bottomwave.svg" alt="" class="bottom-wave-svg">
+    </div>
+
+
+
+    <!-- Navigation Animation Script -->
+    <script src="script.js"></script>
+
+    <!-- Contact Form Script with Web3Forms -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault()
+
+            const form = e.target
+            const submitBtn = form.querySelector('.submit-btn')
+            const originalText = submitBtn.textContent
+
+            // Show loading state
+            submitBtn.textContent = 'Sending...'
+            submitBtn.disabled = true
+
+            // Get form data
+            const formData = new FormData(form)
+
+            // Submit to Web3Forms
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        // Success feedback
+                        submitBtn.textContent = 'Message Sent!'
+                        submitBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)'
+                        form.reset()
+
+                        // Reset button after 3 seconds
+                        setTimeout(() => {
+                            submitBtn.textContent = originalText
+                            submitBtn.disabled = false
+                            submitBtn.style.background = 'linear-gradient(135deg, #1899d3 0%, #16a5e8 100%)'
+                        }, 3000)
+                    } else {
+                        throw new Error('Form submission failed')
+                    }
+                })
+                .catch(error => {
+                    console.log('Error:', error)
+                    // Error feedback
+                    submitBtn.textContent = 'Failed to Send'
+                    submitBtn.style.background = 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)'
+
+                    // Reset button after 3 seconds
+                    setTimeout(() => {
+                        submitBtn.textContent = originalText
+                        submitBtn.disabled = false
+                        submitBtn.style.background = 'linear-gradient(135deg, #1899d3 0%, #16a5e8 100%)'
+                    }, 3000)
+                })
+        })
+
+        // Navigation scroll functionality
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId)
+            if (section) {
+                if (sectionId === 'about-us') {
+                    // Get navbar height
+                    const navbar = document.querySelector('.top-header')
+                    const navHeight = navbar ? navbar.offsetHeight : 0
+                    const y = section.getBoundingClientRect().top + window.pageYOffset - navHeight
+                    window.scrollTo({ top: y, behavior: 'smooth' })
+                } else {
+                    section.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }
+            }
+        }
+
+        // Add event listeners for navigation
+        document.addEventListener('DOMContentLoaded', function () {
+            const servicesNav = document.querySelector('a[href="#services"]')
+            const aboutNav = document.querySelector('a[href="#about-us"]')
+            const contactNav = document.querySelector('a[href="#contact"]')
+            const servicesHeroBtn = document.getElementById('services-hero-btn')
+            const contactHeroBtn = document.getElementById('contact-hero-btn')
+
+            if (servicesNav) {
+                servicesNav.addEventListener('click', function (e) {
+                    e.preventDefault()
+                    scrollToSection('below-fold')
+                })
+            }
+
+            if (aboutNav) {
+                aboutNav.addEventListener('click', function (e) {
+                    e.preventDefault()
+                    scrollToSection('about-us')
+                })
+            }
+
+            if (contactNav) {
+                contactNav.addEventListener('click', function (e) {
+                    e.preventDefault()
+                    scrollToSection('contact-form')
+                })
+            }
+
+            if (servicesHeroBtn) {
+                servicesHeroBtn.addEventListener('click', function () {
+                    scrollToSection('below-fold')
+                })
+            }
+
+            if (contactHeroBtn) {
+                contactHeroBtn.addEventListener('click', function () {
+                    scrollToSection('contact-form')
+                })
+            }
+        });
+    </script>
+</body>
+
+</html>
